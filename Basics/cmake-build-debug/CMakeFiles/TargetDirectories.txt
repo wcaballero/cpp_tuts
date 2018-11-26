@@ -1,0 +1,3 @@
+/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles/Basics.dir
