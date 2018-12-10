@@ -80,7 +80,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/main.cpp">
+		<Unit filename="/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ChernoTuts/Logger.cpp">
+			<Option target="Basics"/>
+		</Unit>
+		<Unit filename="/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ChernoTuts/Logger.h">
+			<Option target="Basics"/>
+		</Unit>
+		<Unit filename="/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ClassExample.cpp">
+			<Option target="Basics"/>
+		</Unit>
+		<Unit filename="/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ClassExample.h">
+			<Option target="Basics"/>
+		</Unit>
+		<Unit filename="/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Log.cpp">
+			<Option target="Basics"/>
+		</Unit>
+		<Unit filename="/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Log.h">
+			<Option target="Basics"/>
+		</Unit>
+		<Unit filename="/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Pointer.cpp">
+			<Option target="Basics"/>
+		</Unit>
+		<Unit filename="/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Pointer.h">
+			<Option target="Basics"/>
+		</Unit>
+		<Unit filename="/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/main.cpp">
 			<Option target="Basics"/>
 		</Unit>
 		<Unit filename="/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/CMakeLists.txt">

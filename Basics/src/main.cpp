@@ -1,66 +1,92 @@
 /* Basic tutorial from https://www.youtube.com/watch?v=vLnPwxZdW4Y */
 
-
+#include <utility>
 #include <iostream>
 #include <cmath>
 #include <string>
+#include "Log.h"
+#include "Pointer.h"
+#include "ClassExample.h"
+#include "ChernoTuts/Logger.h"
 
 void printPattern();
 void getInput();
 double additionCalculator();
 double power();
-void pointers();
 void classExample();
+void setRockName(std::string name);
+std::string getRock();
+int getRocks();
+
+class Product {
+private:
+    std::string rock;
+    int count;
+public:
+
+
+    void setRockName(std::string name) {
+        rock = name;
+    }
+    std::string getRock() {
+        return rock;
+    }
+    int getRocks() {
+        return count;
+    }
+
+};
+
 
 /**
  * Class is similar to a blueprint or specifications
  * Fields are the variables or data structures it can store
  * Methods are used to manipulate the state or fields or perform an operation
  */
-class Book {
-/**********************************Header(.h) is used for field declarations and method signatures*********************/
-    // Public Fields of the class Book are accessible by everyone
-public:
-    std::string title;
-    std::string author;
-    int pages;
-    static int size; // needs to be initialized outside of the scope / class.
-    char *_title;
-    size_t sizeOfText;
-
-    // Constructor for the class
-    Book() {
-        std::cout << "Calling the constructor for the Book class.\n\t" << ++size <<" Book(s) created!" << std::endl;
-    }
-
-    // Constructor 2 is used for the Destructor example. source: https://msdn.microsoft.com/en-us/library/6t4fe76c.aspx
-    Book(char *ch) {
-        sizeOfText = strlen( ch ) + 1;
-
-        // Dynamically allocate the correct amount of memory.
-        _title = new char[ sizeOfText ];
-
-        // If the allocation succeeds, copy the initialization string.
-        if( _title )
-            strcpy( _title, ch );
-    }
-
-    /**
-     * Destructor is used to deallocate the memory that was previosly reserved. and gets called when the object is destroyed.
-     * do not accept args
-     * can't specify any return value (including void)
-     * can't return a value using the return statement
-     * can't be const, volatile, or static
-     * can be declared as virtual.
-     */
-    ~Book() {
-        std::cout << "De-allocating the memory that was previously reserved for _title!" <<std::endl;
-
-        if (_title)
-            delete[] _title;
-    }
-
-};
+//class Book {
+///**********************************Header(.h) is used for field declarations and method signatures*********************/
+//    // Public Fields of the class Book are accessible by everyone
+//public:
+//    std::string title;
+//    std::string author;
+//    int pages;
+//    static int size; // needs to be initialized outside of the scope / class.
+//    char *_title;
+//    size_t sizeOfText;
+//
+//    // Constructor for the class
+//    Book() {
+//        std::cout << "Calling the constructor for the Book class.\n\t" << ++size <<" Book(s) created!" << std::endl;
+//    }
+//
+//    // Constructor 2 is used for the Destructor example. source: https://msdn.microsoft.com/en-us/library/6t4fe76c.aspx
+//    Book(char* ch) {
+//        sizeOfText = strlen( ch ) + 1;
+//
+//        // Dynamically allocate the correct amount of memory.
+//        _title = new char[ sizeOfText ];
+//
+//        // If the allocation succeeds, copy the initialization string.
+//        if( _title )
+//            strcpy( _title, ch );
+//    }
+//
+//    /**
+//     * Destructor is used to deallocate the memory that was previosly reserved. and gets called when the object is destroyed.
+//     * do not accept args
+//     * can't specify any return value (including void)
+//     * can't return a value using the return statement
+//     * can't be const, volatile, or static
+//     * can be declared as virtual.
+//     */
+//    ~Book() {
+//        std::cout << "De-allocating the memory that was previously reserved for _title!" <<std::endl;
+//
+//        if (_title)
+//            delete[] _title;
+//    }
+//
+//};
 
 class GfG
 {
@@ -78,7 +104,7 @@ public:
  * resolution operator outside the class as shown below.
  * Source: https://www.geeksforgeeks.org/static-keyword-cpp/
  */
-int Book::size = 0;
+//int Book::size = 0;
 int GfG::i = 1;
 
 /** some code runs before main and some code runs after main.
@@ -91,41 +117,37 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
     std::cout << "My name is William Caballero." << std::endl;
 
+//    Log("This is printing from the class Log.cpp");
+//    ClassExample class1;
+//    class1.hello1();
 //    printPattern();
 //    getInput();
 //    additionCalculator();
 //    power();
-//    pointers();
-    classExample();
+//    classExample();
+//    ptrExample1();
 
+    Logger log;
+    log.SetLevel(log.LogLevelError);
+    log.Warn("Hello!");
+    log.Info("Hello!");
+    log.Error("Hello!");
     return 0;
 }
 
 void classExample() {
     std::cout << "----------------------------------Class-----------------------------------------------------------\n";
-    // How to create an instance of a class
+//     How to create an instance of a class
 //    Book book1;
 //    Book book2;
 //    std::cout << "class Book field size: " << book2.size <<std::endl;
-
-    GfG obj;
-    std::cout << "class GfG field i: " << obj.i << std::endl;
-
-    // Making use of constructor and destructor
-    Book book3("Programming: Principles and Practice Using C++");
-    std::cout << "The title of the book is " << book3._title << std::endl;
-}
-
-/**
- * Playing around with the basics of pointers
- */
-void pointers() {
-    std::cout << "----------------------------------Pointers--------------------------------------------------------\n";
-    int age = 19;
-    // save the address of age into a pointer
-    int *pAge = &age;
-    // dereference the pointer to get the value
-    std::cout << "The address of pAge is " << pAge << " and the value is (dereference) " << *pAge <<std::endl;
+//
+//    GfG obj;
+//    std::cout << "class GfG field i: " << obj.i << std::endl;
+//
+//    // Making use of constructor and destructor
+//    Book book3("Programming: Principles and Practice Using C++");
+//    std::cout << "The title of the book is " << book3._title << std::endl;
 }
 
 /**

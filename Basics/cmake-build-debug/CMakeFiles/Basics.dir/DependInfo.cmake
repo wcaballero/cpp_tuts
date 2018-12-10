@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/main.cpp" "/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles/Basics.dir/main.cpp.o"
+  "/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ChernoTuts/Logger.cpp" "/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.o"
+  "/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ClassExample.cpp" "/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles/Basics.dir/src/ClassExample.cpp.o"
+  "/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Log.cpp" "/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles/Basics.dir/src/Log.cpp.o"
+  "/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Pointer.cpp" "/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles/Basics.dir/src/Pointer.cpp.o"
+  "/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/main.cpp" "/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles/Basics.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

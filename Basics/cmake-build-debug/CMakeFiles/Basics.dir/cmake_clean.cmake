@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Basics.dir/main.cpp.o"
+  "CMakeFiles/Basics.dir/src/main.cpp.o"
+  "CMakeFiles/Basics.dir/src/Log.cpp.o"
+  "CMakeFiles/Basics.dir/src/Pointer.cpp.o"
+  "CMakeFiles/Basics.dir/src/ClassExample.cpp.o"
+  "CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.o"
   "Basics.pdb"
   "Basics"
 )

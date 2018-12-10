@@ -6,11 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/main.cpp
+/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ChernoTuts/Logger.h
+
+/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ClassExample.h
+iostream
+-
+
+/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Log.h
+
+/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Pointer.h
+
+/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/main.cpp
+utility
+-
 iostream
 -
 cmath
 -
 string
 -
+Log.h
+/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Log.h
+Pointer.h
+/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Pointer.h
+ClassExample.h
+/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ClassExample.h
+ChernoTuts/Logger.h
+/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ChernoTuts/Logger.h
 

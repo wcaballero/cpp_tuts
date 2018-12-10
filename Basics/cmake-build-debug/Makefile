@@ -123,32 +123,140 @@ Basics/fast:
 	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/build
 .PHONY : Basics/fast
 
-main.o: main.cpp.o
+src/ChernoTuts/Logger.o: src/ChernoTuts/Logger.cpp.o
 
-.PHONY : main.o
+.PHONY : src/ChernoTuts/Logger.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/ChernoTuts/Logger.cpp.o:
+	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.o
+.PHONY : src/ChernoTuts/Logger.cpp.o
 
-main.i: main.cpp.i
+src/ChernoTuts/Logger.i: src/ChernoTuts/Logger.cpp.i
 
-.PHONY : main.i
+.PHONY : src/ChernoTuts/Logger.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/ChernoTuts/Logger.cpp.i:
+	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.i
+.PHONY : src/ChernoTuts/Logger.cpp.i
 
-main.s: main.cpp.s
+src/ChernoTuts/Logger.s: src/ChernoTuts/Logger.cpp.s
 
-.PHONY : main.s
+.PHONY : src/ChernoTuts/Logger.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/ChernoTuts/Logger.cpp.s:
+	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.s
+.PHONY : src/ChernoTuts/Logger.cpp.s
+
+src/ClassExample.o: src/ClassExample.cpp.o
+
+.PHONY : src/ClassExample.o
+
+# target to build an object file
+src/ClassExample.cpp.o:
+	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/src/ClassExample.cpp.o
+.PHONY : src/ClassExample.cpp.o
+
+src/ClassExample.i: src/ClassExample.cpp.i
+
+.PHONY : src/ClassExample.i
+
+# target to preprocess a source file
+src/ClassExample.cpp.i:
+	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/src/ClassExample.cpp.i
+.PHONY : src/ClassExample.cpp.i
+
+src/ClassExample.s: src/ClassExample.cpp.s
+
+.PHONY : src/ClassExample.s
+
+# target to generate assembly for a file
+src/ClassExample.cpp.s:
+	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/src/ClassExample.cpp.s
+.PHONY : src/ClassExample.cpp.s
+
+src/Log.o: src/Log.cpp.o
+
+.PHONY : src/Log.o
+
+# target to build an object file
+src/Log.cpp.o:
+	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/src/Log.cpp.o
+.PHONY : src/Log.cpp.o
+
+src/Log.i: src/Log.cpp.i
+
+.PHONY : src/Log.i
+
+# target to preprocess a source file
+src/Log.cpp.i:
+	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/src/Log.cpp.i
+.PHONY : src/Log.cpp.i
+
+src/Log.s: src/Log.cpp.s
+
+.PHONY : src/Log.s
+
+# target to generate assembly for a file
+src/Log.cpp.s:
+	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/src/Log.cpp.s
+.PHONY : src/Log.cpp.s
+
+src/Pointer.o: src/Pointer.cpp.o
+
+.PHONY : src/Pointer.o
+
+# target to build an object file
+src/Pointer.cpp.o:
+	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/src/Pointer.cpp.o
+.PHONY : src/Pointer.cpp.o
+
+src/Pointer.i: src/Pointer.cpp.i
+
+.PHONY : src/Pointer.i
+
+# target to preprocess a source file
+src/Pointer.cpp.i:
+	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/src/Pointer.cpp.i
+.PHONY : src/Pointer.cpp.i
+
+src/Pointer.s: src/Pointer.cpp.s
+
+.PHONY : src/Pointer.s
+
+# target to generate assembly for a file
+src/Pointer.cpp.s:
+	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/src/Pointer.cpp.s
+.PHONY : src/Pointer.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Basics.dir/build.make CMakeFiles/Basics.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Basics"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/ChernoTuts/Logger.o"
+	@echo "... src/ChernoTuts/Logger.i"
+	@echo "... src/ChernoTuts/Logger.s"
+	@echo "... src/ClassExample.o"
+	@echo "... src/ClassExample.i"
+	@echo "... src/ClassExample.s"
+	@echo "... src/Log.o"
+	@echo "... src/Log.i"
+	@echo "... src/Log.s"
+	@echo "... src/Pointer.o"
+	@echo "... src/Pointer.i"
+	@echo "... src/Pointer.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

@@ -57,30 +57,90 @@ include CMakeFiles/Basics.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Basics.dir/flags.make
 
-CMakeFiles/Basics.dir/main.cpp.o: CMakeFiles/Basics.dir/flags.make
-CMakeFiles/Basics.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Basics.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Basics.dir/main.cpp.o -c /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/main.cpp
+CMakeFiles/Basics.dir/src/main.cpp.o: CMakeFiles/Basics.dir/flags.make
+CMakeFiles/Basics.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Basics.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Basics.dir/src/main.cpp.o -c /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/main.cpp
 
-CMakeFiles/Basics.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Basics.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/main.cpp > CMakeFiles/Basics.dir/main.cpp.i
+CMakeFiles/Basics.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Basics.dir/src/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/main.cpp > CMakeFiles/Basics.dir/src/main.cpp.i
 
-CMakeFiles/Basics.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Basics.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/main.cpp -o CMakeFiles/Basics.dir/main.cpp.s
+CMakeFiles/Basics.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Basics.dir/src/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/main.cpp -o CMakeFiles/Basics.dir/src/main.cpp.s
+
+CMakeFiles/Basics.dir/src/Log.cpp.o: CMakeFiles/Basics.dir/flags.make
+CMakeFiles/Basics.dir/src/Log.cpp.o: ../src/Log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Basics.dir/src/Log.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Basics.dir/src/Log.cpp.o -c /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Log.cpp
+
+CMakeFiles/Basics.dir/src/Log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Basics.dir/src/Log.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Log.cpp > CMakeFiles/Basics.dir/src/Log.cpp.i
+
+CMakeFiles/Basics.dir/src/Log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Basics.dir/src/Log.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Log.cpp -o CMakeFiles/Basics.dir/src/Log.cpp.s
+
+CMakeFiles/Basics.dir/src/Pointer.cpp.o: CMakeFiles/Basics.dir/flags.make
+CMakeFiles/Basics.dir/src/Pointer.cpp.o: ../src/Pointer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Basics.dir/src/Pointer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Basics.dir/src/Pointer.cpp.o -c /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Pointer.cpp
+
+CMakeFiles/Basics.dir/src/Pointer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Basics.dir/src/Pointer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Pointer.cpp > CMakeFiles/Basics.dir/src/Pointer.cpp.i
+
+CMakeFiles/Basics.dir/src/Pointer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Basics.dir/src/Pointer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/Pointer.cpp -o CMakeFiles/Basics.dir/src/Pointer.cpp.s
+
+CMakeFiles/Basics.dir/src/ClassExample.cpp.o: CMakeFiles/Basics.dir/flags.make
+CMakeFiles/Basics.dir/src/ClassExample.cpp.o: ../src/ClassExample.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Basics.dir/src/ClassExample.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Basics.dir/src/ClassExample.cpp.o -c /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ClassExample.cpp
+
+CMakeFiles/Basics.dir/src/ClassExample.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Basics.dir/src/ClassExample.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ClassExample.cpp > CMakeFiles/Basics.dir/src/ClassExample.cpp.i
+
+CMakeFiles/Basics.dir/src/ClassExample.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Basics.dir/src/ClassExample.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ClassExample.cpp -o CMakeFiles/Basics.dir/src/ClassExample.cpp.s
+
+CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.o: CMakeFiles/Basics.dir/flags.make
+CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.o: ../src/ChernoTuts/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.o -c /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ChernoTuts/Logger.cpp
+
+CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ChernoTuts/Logger.cpp > CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.i
+
+CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/src/ChernoTuts/Logger.cpp -o CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.s
 
 # Object files for target Basics
 Basics_OBJECTS = \
-"CMakeFiles/Basics.dir/main.cpp.o"
+"CMakeFiles/Basics.dir/src/main.cpp.o" \
+"CMakeFiles/Basics.dir/src/Log.cpp.o" \
+"CMakeFiles/Basics.dir/src/Pointer.cpp.o" \
+"CMakeFiles/Basics.dir/src/ClassExample.cpp.o" \
+"CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.o"
 
 # External object files for target Basics
 Basics_EXTERNAL_OBJECTS =
 
-Basics: CMakeFiles/Basics.dir/main.cpp.o
+Basics: CMakeFiles/Basics.dir/src/main.cpp.o
+Basics: CMakeFiles/Basics.dir/src/Log.cpp.o
+Basics: CMakeFiles/Basics.dir/src/Pointer.cpp.o
+Basics: CMakeFiles/Basics.dir/src/ClassExample.cpp.o
+Basics: CMakeFiles/Basics.dir/src/ChernoTuts/Logger.cpp.o
 Basics: CMakeFiles/Basics.dir/build.make
 Basics: CMakeFiles/Basics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Basics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/williamcaballero-ramos/Documents/Cpp_Tuts/Basics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Basics"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Basics.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
